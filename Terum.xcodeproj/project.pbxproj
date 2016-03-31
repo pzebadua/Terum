@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFC367181CAD8A530021AB88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC367171CAD8A530021AB88 /* main.cpp */; };
+		BFC367281CAD8AF80021AB88 /* MapBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC367211CAD8AF80021AB88 /* MapBuilder.cpp */; };
+		BFC367291CAD8AF80021AB88 /* Scenery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC367261CAD8AF80021AB88 /* Scenery.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFC367121CAD8A530021AB88 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFC367141CAD8A530021AB88 /* Terum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Terum; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC367171CAD8A530021AB88 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BFC3671F1CAD8AF80021AB88 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		BFC367201CAD8AF80021AB88 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		BFC367211CAD8AF80021AB88 /* MapBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapBuilder.cpp; sourceTree = "<group>"; };
+		BFC367221CAD8AF80021AB88 /* MapBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapBuilder.h; sourceTree = "<group>"; };
+		BFC367231CAD8AF80021AB88 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		BFC367241CAD8AF80021AB88 /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
+		BFC367251CAD8AF80021AB88 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		BFC367261CAD8AF80021AB88 /* Scenery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scenery.cpp; sourceTree = "<group>"; };
+		BFC367271CAD8AF80021AB88 /* Scenery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scenery.h; sourceTree = "<group>"; };
+		BFC3672A1CAD8B620021AB88 /* Places */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Places; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC367111CAD8A530021AB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFC3670B1CAD8A530021AB88 = {
+			isa = PBXGroup;
+			children = (
+				BFC3671E1CAD8A660021AB88 /* Resources */,
+				BFC367161CAD8A530021AB88 /* Terum */,
+				BFC367151CAD8A530021AB88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC367151CAD8A530021AB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC367141CAD8A530021AB88 /* Terum */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC367161CAD8A530021AB88 /* Terum */ = {
+			isa = PBXGroup;
+			children = (
+				BFC3671F1CAD8AF80021AB88 /* LinkedList.h */,
+				BFC367201CAD8AF80021AB88 /* Map.h */,
+				BFC367211CAD8AF80021AB88 /* MapBuilder.cpp */,
+				BFC367221CAD8AF80021AB88 /* MapBuilder.h */,
+				BFC367231CAD8AF80021AB88 /* Node.h */,
+				BFC367241CAD8AF80021AB88 /* Path.h */,
+				BFC367251CAD8AF80021AB88 /* Scene.h */,
+				BFC367261CAD8AF80021AB88 /* Scenery.cpp */,
+				BFC367271CAD8AF80021AB88 /* Scenery.h */,
+				BFC367171CAD8A530021AB88 /* main.cpp */,
+			);
+			path = Terum;
+			sourceTree = "<group>";
+		};
+		BFC3671E1CAD8A660021AB88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFC3672A1CAD8B620021AB88 /* Places */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC367131CAD8A530021AB88 /* Terum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC3671B1CAD8A530021AB88 /* Build configuration list for PBXNativeTarget "Terum" */;
+			buildPhases = (
+				BFC367101CAD8A530021AB88 /* Sources */,
+				BFC367111CAD8A530021AB88 /* Frameworks */,
+				BFC367121CAD8A530021AB88 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Terum;
+			productName = Terum;
+			productReference = BFC367141CAD8A530021AB88 /* Terum */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC3670C1CAD8A530021AB88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Controversial Games";
+				TargetAttributes = {
+					BFC367131CAD8A530021AB88 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BFC3670F1CAD8A530021AB88 /* Build configuration list for PBXProject "Terum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFC3670B1CAD8A530021AB88;
+			productRefGroup = BFC367151CAD8A530021AB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC367131CAD8A530021AB88 /* Terum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC367101CAD8A530021AB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC367281CAD8AF80021AB88 /* MapBuilder.cpp in Sources */,
+				BFC367181CAD8A530021AB88 /* main.cpp in Sources */,
+				BFC367291CAD8AF80021AB88 /* Scenery.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFC367191CAD8A530021AB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFC3671A1CAD8A530021AB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFC3671C1CAD8A530021AB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFC3671D1CAD8A530021AB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC3670F1CAD8A530021AB88 /* Build configuration list for PBXProject "Terum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC367191CAD8A530021AB88 /* Debug */,
+				BFC3671A1CAD8A530021AB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC3671B1CAD8A530021AB88 /* Build configuration list for PBXNativeTarget "Terum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC3671C1CAD8A530021AB88 /* Debug */,
+				BFC3671D1CAD8A530021AB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC3670C1CAD8A530021AB88 /* Project object */;
+}
