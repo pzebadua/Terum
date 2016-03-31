@@ -22,7 +22,7 @@ class MapBuilder
         Map<int, string> *map;
         LinkedList<Scene<int, string>* > scenes;
     
-        void FillScene (Scene<int, string>* s, int ids, string t, string d);
+        void FillScene (Scene<int, string>* s, int ids, string t);
         LinkedList<Scene<int, string>* > CreateScenes();
         void CreatePaths(Map<int, string> * m, LinkedList<Scene<int, string>* > l);
         string ReadDescription(string f);

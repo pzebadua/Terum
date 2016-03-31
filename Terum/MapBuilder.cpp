@@ -43,7 +43,7 @@ LinkedList<Scene<int, string>* > MapBuilder::getScenes()
 }
 
 //Sets all the values of the scene
-void MapBuilder::FillScene (Scene<int, string>* s, int ids, string t,string d)
+void MapBuilder::FillScene (Scene<int, string>* s, int ids, string t)
 {
     s->setInfo(ids);
     string desc = ReadDescription (t);
@@ -60,17 +60,17 @@ LinkedList<Scene<int, string>* > MapBuilder::CreateScenes()
     //Create [0] Eyrie
     Scene<int, string> *Eyrie_Town = new Scene<int, string>();
     l.insertLast(Eyrie_Town);
-    FillScene (l[0].value, 0, "Resources/Places/Eyrie_Town.txt","Small Town");
+    FillScene (l[0].value, 0, "Resources/Places/Eyrie_Town.txt");
     
     //Create [1] Eyrie_Tavern
     Scene<int, string> *Eyrie_Tavern = new Scene<int, string>();
     l.insertLast(Eyrie_Tavern);
-    FillScene (l[1].value, 1, "Resources/Places/Eyrie_Tavern.txt","Small Tavern");
+    FillScene (l[1].value, 1, "Resources/Places/Eyrie_Tavern.txt");
     
     //Create [2] Eyrie_Smith
     Scene<int, string> *Eyrie_Smith = new Scene<int, string>();
     l.insertLast(Eyrie_Smith);
-    FillScene (l[2].value, 2, "Resources/Places/Eyrie_Smith.txt","Small Smith");
+    FillScene (l[2].value, 2, "Resources/Places/Eyrie_Smith.txt");
     
     return l;
 }
@@ -111,6 +111,7 @@ string MapBuilder::ReadDescription (string f)
     std::ifstream file(f);
     std::string str;
     std::string file_contents;
+    //Skip the title
     std::getline(file, str);
     while (std::getline(file, str))
     {

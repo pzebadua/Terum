@@ -1,3 +1,17 @@
-Eyrie
-Te encuentras en un pequeño pueblo
-Hay un perro a tu derecha
+Welcome to Eyrie
+
+	   \_/       .:'    .:'    .:'
+	 -=(_)=-  /\||   /\||   /\||
+	   / \   //\\|  //\\|  //\\|
+	        //  \\ //  \\ //  \\
+	       //    \^/    \^/    \\
+	       |[]  []|[]  []|[]  []|
+	      &|  ||  %  ||  |  ||  |%
+	   &%&--==--&%-==--%&"""""%&%""""
+
+A small and peaceful village in the northwest
+
+	Places Available in this location:
+				tavern
+				smith
+				market
