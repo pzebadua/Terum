@@ -1,17 +1,22 @@
 Welcome to Eyrie
 
-	   \_/       .:'    .:'    .:'
-	 -=(_)=-  /\||   /\||   /\||
-	   / \   //\\|  //\\|  //\\|
-	        //  \\ //  \\ //  \\
-	       //    \^/    \^/    \\
-	       |[]  []|[]  []|[]  []|
-	      &|  ||  %  ||  |  ||  |%
-	   &%&--==--&%-==--%&"""""%&%""""
+	~         ~~          __
+	       _T      .,,.    ~--~ ^^
+	 ^^   // \                    ~
+	      ][O]    ^^      ,-~ ~
+	   /''-I_I         _II____
+	__/_  /   \ ______/ ''   /'\_,__
+	  | II--'''' \,--:--..,_/,.-{ },
+	; '/__\,.--';|   |[] .-.| O{ _ }
+		:' |  | []  -|   ''--:.;[,.'\,/
+	'  |[]|,.--'' '',   ''-,.    |
+	  ..    ..-''    ;       ''. '
 
-A small and peaceful village in the northwest
+You are in the kingdom of Eyrie situated at the
+Northwestern part of Terum
 
 	Places Available in this location:
 				tavern
 				smith
-				market
+				bridge
+				forest

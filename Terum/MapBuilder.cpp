@@ -13,9 +13,18 @@ Scenes:
     Paths:
         back
  
- [2] Eyrie_Smith (back)
+ [2] Eyrie_Smith
     Paths:
         back
+ 
+ [3] Eyrie_Bridge
+    Paths:
+        back
+ 
+ [4] Eyrie_Forest
+    Paths:
+        back
+ 
  */
 
 #include "MapBuilder.h"
@@ -61,7 +70,7 @@ LinkedList<Scene<int, string>* > MapBuilder::CreateScenes()
     Scene<int, string> *Eyrie_Town = new Scene<int, string>();
     l.insertLast(Eyrie_Town);
     FillScene (l[0].value, 0, "Resources/Places/Eyrie_Town.txt");
-    
+
     //Create [1] Eyrie_Tavern
     Scene<int, string> *Eyrie_Tavern = new Scene<int, string>();
     l.insertLast(Eyrie_Tavern);
@@ -71,6 +80,16 @@ LinkedList<Scene<int, string>* > MapBuilder::CreateScenes()
     Scene<int, string> *Eyrie_Smith = new Scene<int, string>();
     l.insertLast(Eyrie_Smith);
     FillScene (l[2].value, 2, "Resources/Places/Eyrie_Smith.txt");
+    
+    //Create [3] Eyrie_Bridge
+    Scene<int, string> *Eyrie_Bridge = new Scene<int, string>();
+    l.insertLast(Eyrie_Bridge);
+    FillScene (l[3].value, 3, "Resources/Places/Eyrie_Bridge.txt");
+
+    //Create [4] Eyrie_Bridge
+    Scene<int, string> *Eyrie_Forest = new Scene<int, string>();
+    l.insertLast(Eyrie_Forest);
+    FillScene (l[4].value, 4, "Resources/Places/Eyrie_Forest.txt");
     
     return l;
 }
@@ -84,12 +103,27 @@ void MapBuilder::CreatePaths(Map<int, string> * m, LinkedList<Scene<int, string>
     {
         m->insertScene(l[i].value);
     }
-    
+    //Define the Paths
+    //Eyrie_Town
     m->insertPath(l[0].value, l[1].value, "tavern");
-    m->insertPath(l[1].value, l[0].value, "back");
     m->insertPath(l[0].value, l[2].value, "smith");
-    m->insertPath(l[2].value, l[0].value, "back");
+    m->insertPath(l[0].value, l[3].value, "bridge");
+    m->insertPath(l[0].value, l[4].value, "forest");
+
+    //Eyrie_Tavern
+    m->insertPath(l[1].value, l[0].value, "town");
+    
+    //Eyrie_Smith
+    m->insertPath(l[2].value, l[0].value, "town");
+    
+    //Eyrie_Bridge
+    m->insertPath(l[3].value, l[0].value, "town");
+    
+    //Eyrie_Forest
+    m->insertPath(l[4].value, l[0].value, "town");
+    
 }
+
 
 
 /************ Private ***************/

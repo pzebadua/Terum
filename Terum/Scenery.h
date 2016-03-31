@@ -18,26 +18,18 @@ using namespace std;
 class Scenery
 {
     private:
-        LinkedList<string> items;
         string description;
         string title;
-        LinkedList<string> paths;
     
     public:
         Scenery();
         Scenery(string, string);
         ~Scenery(void);
     
-        void setItem(string);
-        string getItem (string);
-        LinkedList<string> getItems();
         void setDescription(string);
         string getDescription();
         void setTitle(string);
         string getTitle();
-        void setPath(string);
-        string getPath (string);
-        LinkedList<string> getPaths();
 };
 
 

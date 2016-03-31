@@ -1,3 +1,13 @@
-Eyrie_Tavern
-Te encuentras en una taverna
-El cantinero te habla
+Tavern
+
+	      ________[]_                              
+	     /            \
+	\   /              \   /
+	_\ /____ tavern_____\ /_
+	|   |        .--.  |   |
+	|   |  [}{]  |  |  |   |
+	|   |________|__|__|   |
+            	      ====
+
+For a small town the tavern seems like
+a noisy place. You decide to approach the bar

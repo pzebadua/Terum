@@ -1,3 +1,14 @@
-Eyrie_Smith
-Te encuentras en el herrero
-Que quieres forjar
+Smith			
+  	               )
+	              (
+	      ________[]_                              
+	     /            \
+	\   /              \   /
+	_\ /____ Smith______\ /_
+	|   |     .--.     |   |
+	|   |     |  |     |   |
+	|   |_____|__|_____|   |
+                 ====
+
+The blacksmith does not notice you over
+the sound of the iron being hit by a hammer

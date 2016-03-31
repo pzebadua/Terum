@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF8D40C61CADD52600BEF771 /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D40C41CADD52600BEF771 /* Item.cpp */; };
 		BFC367181CAD8A530021AB88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC367171CAD8A530021AB88 /* main.cpp */; };
 		BFC367281CAD8AF80021AB88 /* MapBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC367211CAD8AF80021AB88 /* MapBuilder.cpp */; };
 		BFC367291CAD8AF80021AB88 /* Scenery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC367261CAD8AF80021AB88 /* Scenery.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF8D40C41CADD52600BEF771 /* Item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
+		BF8D40C51CADD52600BEF771 /* Item.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Item.hpp; sourceTree = "<group>"; };
 		BFC367141CAD8A530021AB88 /* Terum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Terum; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC367171CAD8A530021AB88 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BFC3671F1CAD8AF80021AB88 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				BFC367231CAD8AF80021AB88 /* Node.h */,
 				BFC367241CAD8AF80021AB88 /* Path.h */,
 				BFC367251CAD8AF80021AB88 /* Scene.h */,
+				BF8D40C41CADD52600BEF771 /* Item.cpp */,
+				BF8D40C51CADD52600BEF771 /* Item.hpp */,
 				BFC367261CAD8AF80021AB88 /* Scenery.cpp */,
 				BFC367271CAD8AF80021AB88 /* Scenery.h */,
 				BFC367171CAD8A530021AB88 /* main.cpp */,
@@ -148,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8D40C61CADD52600BEF771 /* Item.cpp in Sources */,
 				BFC367281CAD8AF80021AB88 /* MapBuilder.cpp in Sources */,
 				BFC367181CAD8A530021AB88 /* main.cpp in Sources */,
 				BFC367291CAD8AF80021AB88 /* Scenery.cpp in Sources */,
@@ -271,6 +277,7 @@
 				BFC3671D1CAD8A530021AB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
