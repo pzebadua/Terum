@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF36A63D1CAE0584006E72C7 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF36A63B1CAE0584006E72C7 /* Character.cpp */; };
 		BF8D40C61CADD52600BEF771 /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D40C41CADD52600BEF771 /* Item.cpp */; };
 		BFC367181CAD8A530021AB88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC367171CAD8A530021AB88 /* main.cpp */; };
 		BFC367281CAD8AF80021AB88 /* MapBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC367211CAD8AF80021AB88 /* MapBuilder.cpp */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF36A63B1CAE0584006E72C7 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		BF36A63C1CAE0584006E72C7 /* Character.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
 		BF8D40C41CADD52600BEF771 /* Item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
 		BF8D40C51CADD52600BEF771 /* Item.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Item.hpp; sourceTree = "<group>"; };
 		BFC367141CAD8A530021AB88 /* Terum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Terum; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +88,8 @@
 				BFC367261CAD8AF80021AB88 /* Scenery.cpp */,
 				BFC367271CAD8AF80021AB88 /* Scenery.h */,
 				BFC367171CAD8A530021AB88 /* main.cpp */,
+				BF36A63B1CAE0584006E72C7 /* Character.cpp */,
+				BF36A63C1CAE0584006E72C7 /* Character.hpp */,
 			);
 			path = Terum;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				BF8D40C61CADD52600BEF771 /* Item.cpp in Sources */,
 				BFC367281CAD8AF80021AB88 /* MapBuilder.cpp in Sources */,
 				BFC367181CAD8A530021AB88 /* main.cpp in Sources */,
+				BF36A63D1CAE0584006E72C7 /* Character.cpp in Sources */,
 				BFC367291CAD8AF80021AB88 /* Scenery.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
