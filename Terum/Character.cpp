@@ -13,6 +13,7 @@ Character::Character()
     xp = 0;
     magic = 0;
     atk = 1;
+    money = 10;
 
 }
 Character::~Character(void)
@@ -26,6 +27,10 @@ void Character::setLife(int l)
 void Character::setExp(int e)
 {
     xp = e;
+}
+void Character::setMoney(int m)
+{
+    money = m;
 }
 void Character::setMagic(int m)
 {
@@ -68,6 +73,11 @@ int Character::getAttack()
 {
     return atk;
 }
+int Character::getMoney()
+{
+    return money;
+}
+
 
 Item Character::getItem(int id)
 {

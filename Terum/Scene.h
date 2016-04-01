@@ -16,6 +16,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "Scenery.h"
+#include "Character.hpp"
 using namespace std;
 
 template <class V, class A> class Path;
@@ -28,6 +29,7 @@ class Scene
     Path<V, A> *edges;
     V info;
     Scenery scenery;
+    Character character;
 public:
     Scene()
     {
@@ -80,7 +82,12 @@ public:
     /**** Scenery *****/
     Scenery getScenery();
     void setScenery(Scenery s);
-
+    
+    /**** Character *****/
+    Character getCharacter();
+    void setCharacter(Character s);
+    
+    
     Path<V, A> *lastPath();
     Scene<V, A> *getPath(Scene<V, A> *v , A value);
     void insertPath(Path<V, A> *a);
@@ -97,6 +104,18 @@ template <class V, class A>
 void Scene<V, A> ::setScenery(Scenery s)
 {
     scenery = s;
+}
+
+template <class V, class A>
+Character Scene<V, A> ::getCharacter()
+{
+    return character;
+}
+
+template <class V, class A>
+void Scene<V, A> ::setCharacter(Character s)
+{
+    character = s;
 }
 
 template <class V, class A>

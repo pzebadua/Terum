@@ -25,7 +25,7 @@ private:
     int xp;
     int atk;
     int magic;
-    
+    int money;
 public:
     void setLife(int l);
     int getLife();
@@ -35,6 +35,8 @@ public:
     int getExp();
     void setMagic(int m);
     int getMagic();
+    void setMoney(int m);
+    int getMoney();
     void setAttack(int m);
     int getAttack();
     LinkedList<Item> getInventory();
